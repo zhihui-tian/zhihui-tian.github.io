@@ -1,17 +1,17 @@
 # CV data in RenderCV format. Rendered on /cv/ and turned into a PDF by .github/workflows/render-cv.yml.
 cv:
   name: Zhihui Tian
-  label: Ph.D. Candidate in Electrical and Computer Engineering
   email: zhihui.tian@ufl.edu
   location: Gainesville, FL, USA
-  image: ""
-  summary: Ph.D. researcher developing scalable machine learning methods for large-scale 3D microstructure evolution. Combines graph neural networks and physics-regularized modeling to improve the efficiency and long-term stability of mesoscale microstructure evolution prediction.
 
   social_networks:
     - network: Google Scholar
       username: Hcj4-PkAAAAJ
 
   sections:
+    Summary:
+      - Ph.D. candidate in Electrical and Computer Engineering at the University of Florida developing scalable machine learning methods for large-scale 3D microstructure evolution. Combines graph neural networks and physics-regularized modeling to improve the efficiency and long-term stability of mesoscale microstructure evolution prediction. Seeking industry research / ML roles and postdoctoral positions.
+
     Education:
       - institution: University of Florida
         location: Gainesville, FL
