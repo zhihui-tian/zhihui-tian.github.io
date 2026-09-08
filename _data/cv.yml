@@ -63,7 +63,7 @@ cv:
           - Joel B. Harley
           - Fei Zhou
         publisher: Acta Materialia
-        releaseDate: 2026
+        releaseDate: "2026"
         url: https://doi.org/10.1016/j.actamat.2026.122153
 
       - title: A mode filter approach to grain growth - improved performance in lattice pinning and von Neumann-Mullins relation
@@ -76,7 +76,7 @@ cv:
           - Michael Tonks
           - Joel B. Harley
         publisher: Acta Materialia (under review)
-        releaseDate: 2025
+        releaseDate: "2025"
 
       - title: Improved PCA reconstruction-based unsupervised anomaly detection in uncontrolled structural health monitoring with correntropy
         authors:
@@ -88,7 +88,7 @@ cv:
           - Jose C. Principe
           - Joel B. Harley
         publisher: IEEE Transactions on Industrial Informatics
-        releaseDate: 2025
+        releaseDate: "2025"
         url: https://ieeexplore.ieee.org/document/11078390
 
       - title: Weight decay optimized unsupervised autoencoder-based anomaly detection in uncontrolled dynamic structural health monitoring
@@ -98,7 +98,7 @@ cv:
           - Zhihui Tian
           - Joel B. Harley
         publisher: Dynamic Data Driven Applications Systems (DDDAS), Lecture Notes in Computer Science, Springer
-        releaseDate: 2026
+        releaseDate: "2026"
         url: https://doi.org/10.1007/978-3-031-94895-4_3
 
       - title: Quantifying heterogeneous ecosystem services with multi-label soft classification
@@ -111,7 +111,7 @@ cv:
           - Chang Zhao
           - Joel B. Harley
         publisher: IEEE International Geoscience and Remote Sensing Symposium (IGARSS)
-        releaseDate: 2024
+        releaseDate: "2024"
         url: https://doi.org/10.1109/IGARSS53475.2024.10642804
 
     Skills:
