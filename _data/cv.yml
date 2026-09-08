@@ -18,10 +18,11 @@ cv:
         url: https://www.ece.ufl.edu/
         area: Electrical and Computer Engineering
         studyType: Ph.D.
+        degree: Ph.D.
         start_date: 2023-05
         end_date: present
         highlights:
-          - Advisor - Prof. Joel B. Harley, SmartDATA Lab.
+          - Advised by Prof. Joel B. Harley (SmartDATA Lab).
           - Research on scalable, physics-guided machine learning for 3D microstructure evolution.
 
       - institution: University of Florida
@@ -29,12 +30,14 @@ cv:
         url: https://www.ece.ufl.edu/
         area: Electrical and Computer Engineering
         studyType: M.S.
+        degree: M.S.
         start_date: 2021-08
         end_date: 2023-05
 
     Experience:
       - company: Lawrence Livermore National Laboratory (LLNL)
-        position: Collaborative Research Project - Scalable Hybrid CNN-GNN Surrogate for 3D Grain Growth
+        position: Collaborative Research Project
+        summary: Scalable hybrid CNN-GNN surrogate for 3D grain growth.
         location: Remote / Gainesville, FL
         start_date: 2025-09
         end_date: present
@@ -64,6 +67,8 @@ cv:
           - Fei Zhou
         publisher: Acta Materialia
         releaseDate: "2026"
+        journal: Acta Materialia
+        date: "2026"
         url: https://doi.org/10.1016/j.actamat.2026.122153
 
       - title: A mode filter approach to grain growth - improved performance in lattice pinning and von Neumann-Mullins relation
@@ -77,6 +82,8 @@ cv:
           - Joel B. Harley
         publisher: Acta Materialia (under review)
         releaseDate: "2025"
+        journal: Acta Materialia (under review)
+        date: "2025"
 
       - title: Improved PCA reconstruction-based unsupervised anomaly detection in uncontrolled structural health monitoring with correntropy
         authors:
@@ -89,6 +96,8 @@ cv:
           - Joel B. Harley
         publisher: IEEE Transactions on Industrial Informatics
         releaseDate: "2025"
+        journal: IEEE Transactions on Industrial Informatics
+        date: "2025"
         url: https://ieeexplore.ieee.org/document/11078390
 
       - title: Weight decay optimized unsupervised autoencoder-based anomaly detection in uncontrolled dynamic structural health monitoring
@@ -99,6 +108,8 @@ cv:
           - Joel B. Harley
         publisher: Dynamic Data Driven Applications Systems (DDDAS), Lecture Notes in Computer Science, Springer
         releaseDate: "2026"
+        journal: Dynamic Data Driven Applications Systems (DDDAS), Lecture Notes in Computer Science, Springer
+        date: "2026"
         url: https://doi.org/10.1007/978-3-031-94895-4_3
 
       - title: Quantifying heterogeneous ecosystem services with multi-label soft classification
@@ -112,24 +123,30 @@ cv:
           - Joel B. Harley
         publisher: IEEE International Geoscience and Remote Sensing Symposium (IGARSS)
         releaseDate: "2024"
+        journal: IEEE International Geoscience and Remote Sensing Symposium (IGARSS)
+        date: "2024"
         url: https://doi.org/10.1109/IGARSS53475.2024.10642804
 
     Skills:
       - name: Machine Learning
         icon: fa-solid fa-brain
         keywords: "Graph neural networks, convolutional autoencoders, physics-informed / physics-regularized models, surrogate modeling, unsupervised anomaly detection"
+        summary: "Graph neural networks, convolutional autoencoders, physics-informed / physics-regularized models, surrogate modeling, unsupervised anomaly detection"
 
       - name: Computer Vision
         icon: fa-solid fa-eye
         keywords: "Image segmentation (U-Net, Segment Anything Model), image registration and preprocessing, TEM and Lab-DCT microstructure data"
+        summary: "Image segmentation (U-Net, Segment Anything Model), image registration and preprocessing, TEM and Lab-DCT microstructure data"
 
       - name: Materials Simulation
         icon: fa-solid fa-cubes
         keywords: "Grain growth, kinetic Monte Carlo Potts models, mode filter models, 3D microstructure evolution, von Neumann-Mullins analysis"
+        summary: "Grain growth, kinetic Monte Carlo Potts models, mode filter models, 3D microstructure evolution, von Neumann-Mullins analysis"
 
       - name: Programming and Tools
         icon: fa-solid fa-code
         keywords: "Python, PyTorch, PyTorch Geometric, NumPy / SciPy, MATLAB, Git, Linux, HPC clusters"
+        summary: "Python, PyTorch, PyTorch Geometric, NumPy / SciPy, MATLAB, Git, Linux, HPC clusters"
 
     Languages:
       - name: Chinese (Mandarin)
