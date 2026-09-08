@@ -17,3 +17,11 @@
 
 "Preprint":
   color: "#6c757d"
+
+"Mater. Des.":
+  url: https://www.sciencedirect.com/journal/materials-and-design
+  color: "#b35c00"
+
+"SHM":
+  url: https://journals.sagepub.com/home/shm
+  color: "#2a6f97"

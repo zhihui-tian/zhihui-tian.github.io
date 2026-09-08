@@ -37,14 +37,14 @@ cv:
     Experience:
       - company: Lawrence Livermore National Laboratory (LLNL)
         position: Collaborative Research Project
-        summary: Scalable hybrid CNN-GNN surrogate for 3D grain growth.
         location: Remote / Gainesville, FL
         start_date: 2025-09
         end_date: present
+        summary: Scalable hybrid CNN-GNN surrogate for 3D grain growth.
         highlights:
-          - Designed a hybrid bijective autoencoder + graph neural network surrogate that evolves 3D grain microstructures in a compressed latent space.
-          - Developed a latent-space inference strategy achieving up to 117x memory reduction and 115x runtime improvement on 3D meshes up to 160^3 relative to a GNN-only baseline.
-          - Work published in Acta Materialia (2026) with collaborators at LLNL.
+          - Conducted computational experiments and benchmarking for a hybrid bijective autoencoder and graph neural network (AE+GNN) surrogate model.
+          - Developed the latent-space inference strategy and conducted scalability studies, achieving up to 117x memory reduction and 115x runtime improvement on 3D meshes up to 160^3 relative to a GNN-only baseline.
+          - Established and applied quantitative statistical benchmarks to evaluate surrogate predictions against Monte Carlo ground truth.
 
       - company: SmartDATA Lab, University of Florida
         position: Graduate Research Assistant
@@ -52,11 +52,24 @@ cv:
         start_date: 2023-05
         end_date: present
         highlights:
-          - "Physics-regulated interpretable ML for 3D microstructure evolution: built a scalable 3D architecture with spatiotemporal extrapolation and inclination/misorientation-dependent grain boundary dynamics; applied it to Lab-DCT experimental data."
-          - "Computer vision for experimental microstructure analysis: built a TEM image preprocessing and registration pipeline; fine-tuned U-Net and the Segment Anything Model for microstructure segmentation."
-          - "Gaussian-sampled mode filter for grain growth: developed Gaussian-sampled kernels that emulate grain boundary motion, mitigate lattice pinning, and improve adherence to the von Neumann-Mullins law over Monte Carlo Potts models."
+          - "Physics-regulated interpretable ML for 3D microstructure evolution: developed a scalable 3D architecture with strong spatiotemporal extrapolation across large simulation domains; extended the physics-regulated framework to inclination- and misorientation-dependent grain boundary dynamics; applied the model to Lab-DCT experimental data with quantitative comparison against ML predictions."
+          - "Computer vision and deep learning for experimental microstructure analysis: developed and optimized a TEM image preprocessing pipeline that improves registration accuracy; adapted and fine-tuned U-Net and the Segment Anything Model for microstructure segmentation of registered TEM images."
+          - "Gaussian-sampled mode filter for learning and emulating microstructure evolution: designed Gaussian-sampled kernels that emulate grain boundary motion and mitigate lattice pinning artifacts; demonstrated improved von Neumann-Mullins law adherence over classical Monte Carlo Potts models; analyzed energy-mobility interactions for interpretable modeling."
 
     Publications:
+      - title: "3D-PRIMME: A scalable physics-guided machine learning framework for 3D grain growth"
+        authors:
+          - Zhihui Tian
+          - Kang Yang
+          - Vishal Yadav
+          - Amanda R. Krause
+          - Michael R. Tonks
+          - Joel B. Harley
+        publisher: Materials & Design
+        releaseDate: "2026"
+        journal: Materials & Design, 2026
+        url: https://arxiv.org/abs/2607.04680
+
       - title: Scaling kinetic Monte-Carlo simulations of grain growth with combined convolutional and graph neural networks
         authors:
           - Zhihui Tian
@@ -70,18 +83,19 @@ cv:
         journal: Acta Materialia, 2026
         url: https://doi.org/10.1016/j.actamat.2026.122153
 
-      - title: A mode filter approach to grain growth - improved performance in lattice pinning and von Neumann-Mullins relation
+      - title: "Beyond curvature-driven grain growth: Insights from fully anisotropic Monte Carlo Potts simulations"
         authors:
-          - Zhihui Tian
           - Lin Yang
-          - Kang Yang
+          - Vivekanand Muralikrishnan
           - Vishal Yadav
+          - Zhihui Tian
+          - Joel B. Harley
           - Amanda Krause
           - Michael Tonks
-          - Joel B. Harley
-        publisher: Acta Materialia (under review)
-        releaseDate: "2025"
-        journal: Acta Materialia (under review), 2025
+        publisher: Acta Materialia
+        releaseDate: "2026"
+        journal: Acta Materialia, 2026
+        url: https://doi.org/10.1016/j.actamat.2025.121672
 
       - title: Improved PCA reconstruction-based unsupervised anomaly detection in uncontrolled structural health monitoring with correntropy
         authors:
@@ -97,16 +111,19 @@ cv:
         journal: IEEE Transactions on Industrial Informatics, 2025
         url: https://ieeexplore.ieee.org/document/11078390
 
-      - title: Weight decay optimized unsupervised autoencoder-based anomaly detection in uncontrolled dynamic structural health monitoring
+      - title: Baseline optimized autoencoder-based unsupervised anomaly detection in uncontrolled dynamic structural health monitoring
         authors:
           - Kang Yang
+          - Tianqi Liu
           - Zekun Yang
+          - Yang Zhou
           - Zhihui Tian
+          - Nam H. Kim
           - Joel B. Harley
-        publisher: Dynamic Data Driven Applications Systems (DDDAS), Lecture Notes in Computer Science, Springer
-        releaseDate: "2026"
-        journal: Dynamic Data Driven Applications Systems (DDDAS), Lecture Notes in Computer Science, Springer, 2026
-        url: https://doi.org/10.1007/978-3-031-94895-4_3
+        publisher: Structural Health Monitoring
+        releaseDate: "2025"
+        journal: Structural Health Monitoring, 2025
+        url: https://doi.org/10.1177/14759217251324107
 
       - title: Quantifying heterogeneous ecosystem services with multi-label soft classification
         authors:
@@ -121,6 +138,17 @@ cv:
         releaseDate: "2024"
         journal: IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2024
         url: https://doi.org/10.1109/IGARSS53475.2024.10642804
+
+      - title: Weight decay optimized unsupervised autoencoder-based anomaly detection in uncontrolled dynamic structural health monitoring
+        authors:
+          - Kang Yang
+          - Zekun Yang
+          - Zhihui Tian
+          - Joel B. Harley
+        publisher: Dynamic Data Driven Applications Systems (DDDAS)
+        releaseDate: "2024"
+        journal: Dynamic Data Driven Applications Systems (DDDAS), 2024
+        url: https://doi.org/10.1007/978-3-031-94895-4_3
 
     Skills:
       - name: Machine Learning
