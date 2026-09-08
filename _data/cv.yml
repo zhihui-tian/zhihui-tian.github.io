@@ -1,0 +1,139 @@
+# CV data in RenderCV format. Rendered on /cv/ and turned into a PDF by .github/workflows/render-cv.yml.
+cv:
+  name: Zhihui Tian
+  label: Ph.D. Candidate in Electrical and Computer Engineering
+  email: zhihui.tian@ufl.edu
+  location: Gainesville, FL, USA
+  image: ""
+  summary: Ph.D. researcher developing scalable machine learning methods for large-scale 3D microstructure evolution. Combines graph neural networks and physics-regularized modeling to improve the efficiency and long-term stability of mesoscale microstructure evolution prediction.
+
+  social_networks:
+    - network: Google Scholar
+      username: SCHOLAR_ID_PLACEHOLDER
+
+  sections:
+    Education:
+      - institution: University of Florida
+        location: Gainesville, FL
+        url: https://www.ece.ufl.edu/
+        area: Electrical and Computer Engineering
+        studyType: Ph.D.
+        start_date: 2023-05
+        end_date: present
+        highlights:
+          - Advisor - Prof. Joel B. Harley, SmartDATA Lab.
+          - Research on scalable, physics-guided machine learning for 3D microstructure evolution.
+
+      - institution: University of Florida
+        location: Gainesville, FL
+        url: https://www.ece.ufl.edu/
+        area: Electrical and Computer Engineering
+        studyType: M.S.
+        start_date: 2021-08
+        end_date: 2023-05
+
+    Experience:
+      - company: Lawrence Livermore National Laboratory (LLNL)
+        position: Collaborative Research Project - Scalable Hybrid CNN-GNN Surrogate for 3D Grain Growth
+        location: Remote / Gainesville, FL
+        start_date: 2025-09
+        end_date: present
+        highlights:
+          - Designed a hybrid bijective autoencoder + graph neural network surrogate that evolves 3D grain microstructures in a compressed latent space.
+          - Developed a latent-space inference strategy achieving up to 117x memory reduction and 115x runtime improvement on 3D meshes up to 160^3 relative to a GNN-only baseline.
+          - Work published in Acta Materialia (2026) with collaborators at LLNL.
+
+      - company: SmartDATA Lab, University of Florida
+        position: Graduate Research Assistant
+        location: Gainesville, FL
+        start_date: 2023-05
+        end_date: present
+        highlights:
+          - "Physics-regulated interpretable ML for 3D microstructure evolution: built a scalable 3D architecture with spatiotemporal extrapolation and inclination/misorientation-dependent grain boundary dynamics; applied it to Lab-DCT experimental data."
+          - "Computer vision for experimental microstructure analysis: built a TEM image preprocessing and registration pipeline; fine-tuned U-Net and the Segment Anything Model for microstructure segmentation."
+          - "Gaussian-sampled mode filter for grain growth: developed Gaussian-sampled kernels that emulate grain boundary motion, mitigate lattice pinning, and improve adherence to the von Neumann-Mullins law over Monte Carlo Potts models."
+
+    Publications:
+      - title: Scaling kinetic Monte-Carlo simulations of grain growth with combined convolutional and graph neural networks
+        authors:
+          - Zhihui Tian
+          - Ethan Suwandi
+          - Tomas Oppelstrup
+          - Vasily V. Bulatov
+          - Joel B. Harley
+          - Fei Zhou
+        publisher: Acta Materialia
+        releaseDate: 2026
+        url: https://doi.org/10.1016/j.actamat.2026.122153
+
+      - title: A mode filter approach to grain growth - improved performance in lattice pinning and von Neumann-Mullins relation
+        authors:
+          - Zhihui Tian
+          - Lin Yang
+          - Kang Yang
+          - Vishal Yadav
+          - Amanda Krause
+          - Michael Tonks
+          - Joel B. Harley
+        publisher: Acta Materialia (under review)
+        releaseDate: 2025
+
+      - title: Improved PCA reconstruction-based unsupervised anomaly detection in uncontrolled structural health monitoring with correntropy
+        authors:
+          - Kang Yang
+          - Zhenhan Lin
+          - Zekun Yang
+          - Zhihui Tian
+          - Jie Ma
+          - Jose C. Principe
+          - Joel B. Harley
+        publisher: IEEE Transactions on Industrial Informatics
+        releaseDate: 2025
+        url: https://ieeexplore.ieee.org/document/11078390
+
+      - title: Weight decay optimized unsupervised autoencoder-based anomaly detection in uncontrolled dynamic structural health monitoring
+        authors:
+          - Kang Yang
+          - Zekun Yang
+          - Zhihui Tian
+          - Joel B. Harley
+        publisher: Dynamic Data Driven Applications Systems (DDDAS), Lecture Notes in Computer Science, Springer
+        releaseDate: 2026
+        url: https://doi.org/10.1007/978-3-031-94895-4_3
+
+      - title: Quantifying heterogeneous ecosystem services with multi-label soft classification
+        authors:
+          - Zhihui Tian
+          - Jeremy Upchurch
+          - Gabriel A. Simon
+          - Jose Dubeux
+          - Alina Zare
+          - Chang Zhao
+          - Joel B. Harley
+        publisher: IEEE International Geoscience and Remote Sensing Symposium (IGARSS)
+        releaseDate: 2024
+        url: https://doi.org/10.1109/IGARSS53475.2024.10642804
+
+    Skills:
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords: "Graph neural networks, convolutional autoencoders, physics-informed / physics-regularized models, surrogate modeling, unsupervised anomaly detection"
+
+      - name: Computer Vision
+        icon: fa-solid fa-eye
+        keywords: "Image segmentation (U-Net, Segment Anything Model), image registration and preprocessing, TEM and Lab-DCT microstructure data"
+
+      - name: Materials Simulation
+        icon: fa-solid fa-cubes
+        keywords: "Grain growth, kinetic Monte Carlo Potts models, mode filter models, 3D microstructure evolution, von Neumann-Mullins analysis"
+
+      - name: Programming and Tools
+        icon: fa-solid fa-code
+        keywords: "Python, PyTorch, PyTorch Geometric, NumPy / SciPy, MATLAB, Git, Linux, HPC clusters"
+
+    Languages:
+      - name: Chinese (Mandarin)
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Fluent"

@@ -1,0 +1,19 @@
+# Venue abbreviations used in `abbr` fields of _bibliography/papers.bib.
+"Acta Mat.":
+  url: https://www.sciencedirect.com/journal/acta-materialia
+  color: "#8b0000"
+
+"IEEE TII":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424
+  color: "#00629b"
+
+"IGARSS":
+  url: https://www.igarss2024.org/
+  color: "#1f6f3f"
+
+"DDDAS":
+  url: https://1dddas.org/
+  color: "#5b4b8a"
+
+"Preprint":
+  color: "#6c757d"
