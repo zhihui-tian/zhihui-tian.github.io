@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Journal and conference papers in reverse chronological order. See also my <a href="https://scholar.google.com/citations?user=Hcj4-PkAAAAJ">Google Scholar</a> profile.
+description: Journal and conference papers in reverse chronological order. Citation counts and more are on my Google Scholar profile (see the icons on the about page).
 nav: true
 nav_order: 1
 ---
