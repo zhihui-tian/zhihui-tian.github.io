@@ -67,8 +67,7 @@ cv:
           - Fei Zhou
         publisher: Acta Materialia
         releaseDate: "2026"
-        journal: Acta Materialia
-        date: "2026"
+        journal: Acta Materialia, 2026
         url: https://doi.org/10.1016/j.actamat.2026.122153
 
       - title: A mode filter approach to grain growth - improved performance in lattice pinning and von Neumann-Mullins relation
@@ -82,8 +81,7 @@ cv:
           - Joel B. Harley
         publisher: Acta Materialia (under review)
         releaseDate: "2025"
-        journal: Acta Materialia (under review)
-        date: "2025"
+        journal: Acta Materialia (under review), 2025
 
       - title: Improved PCA reconstruction-based unsupervised anomaly detection in uncontrolled structural health monitoring with correntropy
         authors:
@@ -96,8 +94,7 @@ cv:
           - Joel B. Harley
         publisher: IEEE Transactions on Industrial Informatics
         releaseDate: "2025"
-        journal: IEEE Transactions on Industrial Informatics
-        date: "2025"
+        journal: IEEE Transactions on Industrial Informatics, 2025
         url: https://ieeexplore.ieee.org/document/11078390
 
       - title: Weight decay optimized unsupervised autoencoder-based anomaly detection in uncontrolled dynamic structural health monitoring
@@ -108,8 +105,7 @@ cv:
           - Joel B. Harley
         publisher: Dynamic Data Driven Applications Systems (DDDAS), Lecture Notes in Computer Science, Springer
         releaseDate: "2026"
-        journal: Dynamic Data Driven Applications Systems (DDDAS), Lecture Notes in Computer Science, Springer
-        date: "2026"
+        journal: Dynamic Data Driven Applications Systems (DDDAS), Lecture Notes in Computer Science, Springer, 2026
         url: https://doi.org/10.1007/978-3-031-94895-4_3
 
       - title: Quantifying heterogeneous ecosystem services with multi-label soft classification
@@ -123,8 +119,7 @@ cv:
           - Joel B. Harley
         publisher: IEEE International Geoscience and Remote Sensing Symposium (IGARSS)
         releaseDate: "2024"
-        journal: IEEE International Geoscience and Remote Sensing Symposium (IGARSS)
-        date: "2024"
+        journal: IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2024
         url: https://doi.org/10.1109/IGARSS53475.2024.10642804
 
     Skills:
