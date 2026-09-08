@@ -10,7 +10,8 @@ cv:
 
   sections:
     Summary:
-      - Ph.D. candidate in Electrical and Computer Engineering at the University of Florida developing scalable machine learning methods for large-scale 3D microstructure evolution. Combines graph neural networks and physics-regularized modeling to improve the efficiency and long-term stability of mesoscale microstructure evolution prediction. Seeking industry research / ML roles and postdoctoral positions.
+      - name: Profile
+        summary: Ph.D. candidate in Electrical and Computer Engineering at the University of Florida developing scalable machine learning methods for large-scale 3D microstructure evolution. Combines graph neural networks and physics-regularized modeling to improve the efficiency and long-term stability of mesoscale microstructure evolution prediction. Seeking industry research / ML roles and postdoctoral positions.
 
     Education:
       - institution: University of Florida
