@@ -1,12 +1,35 @@
-# Talks, presentations and posters. Newest first is not required; the page sorts by date (descending).
-# Fields: title (required), event (required), date (YYYY-MM-DD, required), location, type (Invited talk / Contributed talk / Poster / Seminar),
-#         slides (URL or /assets/pdf/xxx.pdf), video (URL), url (event page), note.
-# Example:
-# - title: "Scaling kinetic Monte-Carlo simulations of grain growth with combined convolutional and graph neural networks"
-#   event: "TMS 2026 Annual Meeting & Exhibition"
-#   location: "Phoenix, AZ, USA"
-#   date: 2026-03-16
-#   type: "Contributed talk"
-#   slides: /assets/pdf/tms2026_slides.pdf
-#   url: https://www.tms.org/TMS2026
-[]
+# Talks, presentations, posters and short courses. The page sorts by date (descending).
+# Fields: title (required), event (required), date (YYYY-MM-DD, required), location, type
+#         (Invited talk / Contributed talk / Poster / Seminar / Short course), slides, video, poster, url, note.
+
+- title: "3D PRIMME for Learning Grain Growth Behaviors from Simulated and Experimental Datasets"
+  event: "4th World Congress on Artificial Intelligence in Materials & Manufacturing (AIM 2026), TMS Specialty Congress 2026"
+  location: "Anaheim, CA, USA"
+  date: 2026-07-10
+  type: "Contributed talk"
+  url: https://www.programmaster.org/PM/PM.nsf/ViewSessionSheets?OpenAgent=&ParentUNID=EE603C13984BFADD85258DCB005C3595
+  note: "Session: Physics-Grounded AI for Materials. With Hailey Hall, Michael Tonks, Amanda Krause and Joel B. Harley."
+
+- title: "Harnessing AI for Prediction of Abnormal Grain Growth Using 3D Experimental Data"
+  event: "TMS 2026 Annual Meeting & Exhibition, symposium AI Applications in Integrated Computational Materials Engineering (AI-ICME)"
+  location: "San Diego, CA, USA"
+  date: 2026-03-17
+  type: "Invited talk (co-author)"
+  url: https://www.tms.org/TMS2026
+  note: "Presented by Michael Tonks; with Woohyun Eum, Vishal Yadav, Amanda Krause and Joel B. Harley."
+
+- title: "Machine Learning of Mode Filter Grain Growth Model Characteristics"
+  event: "3rd World Congress on Artificial Intelligence in Materials & Manufacturing (AIM 2025), TMS Specialty Congress 2025"
+  location: "Anaheim, CA, USA"
+  date: 2025-06-16
+  type: "Contributed talk"
+  url: https://www.tms.org/AIM2025
+  note: "Session: Development of Novel ML Methodologies I. With Lin Yang, Vishal Yadav, Kang Yang, Amanda Krause, Michael Tonks and Joel B. Harley."
+
+- title: "Grain Growth Modeling in the Fast Lane: Python, GPUs, and Machine Learning Approaches"
+  event: "TMS 2025 Annual Meeting & Exhibition, half-day short course"
+  location: "Las Vegas, NV, USA"
+  date: 2025-03-23
+  type: "Short course instructor"
+  url: https://www.tms.org/TMS2025/TMS2025/PD/Grain-Growth-Modeling.aspx
+  note: "Co-instructor with Michael Tonks and Joel B. Harley; taught the mode filter model and machine learning approaches to grain growth modeling."
