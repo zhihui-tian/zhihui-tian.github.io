@@ -1,0 +1,12 @@
+# Talks, presentations and posters. Newest first is not required; the page sorts by date (descending).
+# Fields: title (required), event (required), date (YYYY-MM-DD, required), location, type (Invited talk / Contributed talk / Poster / Seminar),
+#         slides (URL or /assets/pdf/xxx.pdf), video (URL), url (event page), note.
+# Example:
+# - title: "Scaling kinetic Monte-Carlo simulations of grain growth with combined convolutional and graph neural networks"
+#   event: "TMS 2026 Annual Meeting & Exhibition"
+#   location: "Phoenix, AZ, USA"
+#   date: 2026-03-16
+#   type: "Contributed talk"
+#   slides: /assets/pdf/tms2026_slides.pdf
+#   url: https://www.tms.org/TMS2026
+[]
