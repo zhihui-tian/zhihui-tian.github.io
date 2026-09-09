@@ -13,6 +13,7 @@ profile:
     <p>Department of ECE</p>
     <p>University of Florida</p>
     <p>Gainesville, FL, USA</p>
+    <p><a href="mailto:zhihui.tian@ufl.edu">zhihui.tian@ufl.edu</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
