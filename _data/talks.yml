@@ -34,3 +34,11 @@
   type: "Contributed talk"
   url: https://www.tms.org/SpecialtyCongress2024/SpecialtyCongress2024/AIM2024/default.aspx
   note: "Session: Machine Learning - Microstructure. With Vishal Yadav, Joseph Melville, Amanda Krause, Joel B. Harley, Michael Tonks and Kang Yang."
+
+- title: "Quantifying Heterogeneous Ecosystem Services with Multi-Label Soft Classification"
+  event: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024)"
+  location: "Athens, Greece"
+  date: 2024-07-08
+  type: "Contributed talk"
+  url: https://ieeexplore.ieee.org/document/10642804
+  note: "Oral session MO4.R4: Give Earth a Chance - Artificial Intelligence Meets Remote Sensing for Environmental Monitoring I. With Jeremy Upchurch, Gabriel A. Simon, Jose Dubeux, Alina Zare, Chang Zhao and Joel B. Harley."
