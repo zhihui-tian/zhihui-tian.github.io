@@ -16,13 +16,3 @@
     preserving the expected kinetics and topology.
   paper_title: "3D-PRIMME: A scalable physics-guided machine learning framework for 3D grain growth (Materials & Design, 2026)"
   paper_url: https://arxiv.org/abs/2607.04680
-  tags: ["physics-guided ML", "3D microstructure", "grain growth", "autoregressive rollout"]
-  facts:
-    - label: Model
-      value: 3D-PRIMME
-    - label: Trained on
-      value: Monte Carlo Potts simulations
-    - label: Prediction
-      value: Full 3D volume, step by step
-    - label: Venue
-      value: Materials & Design, 2026
