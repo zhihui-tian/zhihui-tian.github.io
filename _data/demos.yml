@@ -5,8 +5,8 @@
 - title: "3D grain growth predicted by 3D-PRIMME"
   video: /assets/video/grain_growth_3dprimme.mp4
   poster: /assets/img/demo_3dprimme_poster.png
-  zoom: 1.75 # CSS zoom to crop away the white margins of the video frame
-  shift_y: "-7%" # move the content up (negative) or down (positive), in % of the frame height
+  zoom: 1.65 # CSS zoom to crop away the white margins of the video frame
+  shift_y: "-2.5%" # move the content up (negative) or down (positive), in % of the frame height
   max_width: 640px
   description: >
     Autoregressive prediction of three-dimensional polycrystalline grain growth by 3D-PRIMME, a physics-guided
