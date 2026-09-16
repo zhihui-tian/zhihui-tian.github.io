@@ -12,9 +12,10 @@ nav_order: 3
   <div class="demo">
     <h2 class="demo-title">{{ d.title }}</h2>
     {% assign zoom = d.zoom | default: 1 %}
+    {% assign shift_y = d.shift_y | default: '0%' %}
     <div class="demo-frame" style="max-width: {{ d.max_width | default: '640px' }};">
       <video class="demo-video" autoplay loop muted playsinline preload="metadata"
-        style="transform: scale({{ zoom }});"
+        style="transform: translateY({{ shift_y }}) scale({{ zoom }});"
         {% if d.poster %}poster="{{ d.poster | relative_url }}"{% endif %}>
         <source src="{{ d.video | relative_url }}" type="video/mp4">
         Your browser does not support embedded video. <a href="{{ d.video | relative_url }}">Download the video</a>.
