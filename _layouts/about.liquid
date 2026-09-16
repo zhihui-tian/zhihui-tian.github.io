@@ -1,0 +1,43 @@
+---
+layout: default
+---
+{%- comment -%}
+  Local override of al_folio_core's about layout. The photo, name and contact
+  details live in the sidebar, so the home page opens with a short lede, the bio,
+  recent news and selected publications.
+{%- endcomment -%}
+<div class="post about">
+  <canvas class="grain-strip" data-grain width="900" height="70" aria-hidden="true"></canvas>
+
+  <article>
+    <h2 class="section-label">About</h2>
+    {% if page.lede %}<p class="about-lede">{{ page.lede }}</p>{% endif %}
+    <div class="about-body">{{ content }}</div>
+
+    {% if page.announcements and page.announcements.enabled and site.news != blank %}
+      <h2 class="section-label">News</h2>
+      <ul class="news-list">
+        {% assign news = site.news | sort: 'date' | reverse %}
+        {% assign news_limit = page.announcements.limit | default: 5 %}
+        {% for item in news limit: news_limit %}
+          <li>
+            <time datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: '%b %Y' }}</time>
+            <span>
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' }}
+              {% else %}
+                <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endif %}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if page.selected_papers %}
+      <h2 class="section-label"><a href="{{ '/publications/' | relative_url }}">Selected publications</a></h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+  </article>
+</div>
+<script src="{{ '/assets/js/grain.js' | relative_url }}"></script>

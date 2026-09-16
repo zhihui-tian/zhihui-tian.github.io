@@ -4,24 +4,15 @@ title: about
 permalink: /
 subtitle: Ph.D. Candidate, Electrical and Computer Engineering, <a href="https://www.ufl.edu/">University of Florida</a>
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>SmartDATA Lab</p>
-    <p>Department of ECE</p>
-    <p>University of Florida</p>
-    <p>Gainesville, FL, USA</p>
-    <p><a href="mailto:zhihui.tian@ufl.edu">zhihui.tian@ufl.edu</a></p>
+lede: Scalable, physics-guided machine learning for how polycrystalline materials evolve in three dimensions.
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # contact details live in the sidebar
 
 announcements:
-  enabled: false
-  scrollable: true
-  limit: 5
+  enabled: true
+  scrollable: false
+  limit: 4
 
 latest_posts:
   enabled: false
@@ -37,4 +28,4 @@ A short animation of 3D grain growth predicted by 3D-PRIMME is on the [demo page
 
 More broadly, I am interested in scientific machine learning, surrogate modeling for simulation, and computer vision for experimental data. My work has been published in *Acta Materialia*, *Materials & Design*, *IEEE Transactions on Industrial Informatics*, *Structural Health Monitoring*, and IEEE IGARSS.
 
-**I am on the job market.** I am seeking research scientist / machine learning engineer roles in industry and postdoctoral positions in scientific ML, materials informatics, or related areas. Please feel free to reach out by [email](mailto:zhihui.tian@ufl.edu).
+<p class="market"><span><strong>I am on the job market.</strong> I am seeking research scientist / machine learning engineer roles in industry and postdoctoral positions in scientific ML, materials informatics, or related areas. Please feel free to reach out by <a href="mailto:zhihui.tian@ufl.edu">email</a>.</span></p>

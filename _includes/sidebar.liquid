@@ -1,0 +1,42 @@
+{% assign sb = site.data.sidebar %}
+<aside class="site-sidebar" aria-label="Profile and site navigation">
+  <div class="sb-photo">
+    {% include figure.liquid loading="eager" path=sb.photo class="sb-photo-img" alt=sb.photo_alt cache_bust=true sizes="(max-width: 899px) 72px, 160px" %}
+  </div>
+  <div class="sb-name">
+    <a href="{{ '/' | relative_url }}">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</a>
+  </div>
+  {% if sb.title %}<p class="sb-title">{{ sb.title | join: '<br>' }}</p>{% endif %}
+  {% if sb.affiliation %}<p class="sb-aff">{{ sb.affiliation | join: '<br>' }}</p>{% endif %}
+  {% if sb.contacts %}
+    <ul class="sb-contact">
+      {% for c in sb.contacts %}
+        {% if c.url contains '://' or c.url contains 'mailto:' %}{% assign href = c.url %}{% else %}{% assign href = c.url | relative_url %}{% endif %}
+        <li><span>{{ c.label }}</span><a href="{{ href }}"{% if c.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ c.text }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  <nav class="sb-nav" aria-label="Site">
+    <ul>
+      {% for p in site.pages %}{% if p.permalink == '/' %}{% assign about_title = p.title %}{% endif %}{% endfor %}
+      <li class="{% if page.permalink == '/' %}active{% endif %}"><a href="{{ '/' | relative_url }}">{{ about_title | capitalize }}</a></li>
+      {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+      {% for p in sorted_pages %}
+        {% if p.nav and p.autogen == null and p.dropdown == null %}
+          {% if p.permalink contains '://' %}{% assign url = p.permalink %}{% else %}{% assign url = p.url %}{% endif %}
+          <li class="{% if page.url contains p.url %}active{% endif %}"><a href="{{ url | relative_url }}">{{ p.title | capitalize }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+  <div class="sb-tools">
+    {% if site.search_enabled %}
+      <button id="search-toggle" type="button" title="Search (ctrl k)" aria-label="Open search"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+    {% endif %}
+    {% if site.enable_darkmode %}
+      <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme">
+        <i class="fa-half-sun-moon" id="light-toggle-system"></i><i class="fa-solid fa-moon" id="light-toggle-dark"></i><i class="fa-solid fa-sun" id="light-toggle-light"></i> Theme
+      </button>
+    {% endif %}
+  </div>
+</aside>

@@ -1,0 +1,24 @@
+# Content of the left sidebar (_includes/sidebar.liquid). Navigation links are
+# generated from the pages with `nav: true`, ordered by `nav_order`.
+photo: assets/img/prof_pic.jpg
+photo_alt: Portrait of Zhihui Tian
+title:
+  - Ph.D. Candidate
+  - Electrical and Computer Engineering
+affiliation:
+  - SmartDATA Lab
+  - University of Florida
+  - Gainesville, FL, USA
+contacts:
+  - label: Email
+    text: zhihui.tian@ufl.edu
+    url: mailto:zhihui.tian@ufl.edu
+  - label: Scholar
+    text: Google Scholar
+    url: https://scholar.google.com/citations?user=Hcj4-PkAAAAJ
+  - label: Code
+    text: github.com/zhihui-tian
+    url: https://github.com/zhihui-tian
+  - label: CV
+    text: PDF
+    url: /assets/rendercv/rendercv_output/Zhihui_Tian_CV.pdf
