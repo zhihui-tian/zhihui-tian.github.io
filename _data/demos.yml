@@ -1,0 +1,13 @@
+# Demo videos shown on /demo/. Fields: title (required), video (path under /assets/video/, required),
+# poster (image under /assets/img/), description (Markdown), paper_title, paper_url.
+- title: "3D grain growth predicted by 3D-PRIMME"
+  video: /assets/video/grain_growth_3dprimme.mp4
+  poster: /assets/img/demo_3dprimme_poster.png
+  description: >
+    Autoregressive prediction of three-dimensional polycrystalline grain growth by 3D-PRIMME, a physics-guided
+    machine learning model that learns local grain boundary evolution rules from Monte Carlo Potts simulations.
+    Starting from an initial microstructure, the model evolves the entire volume step by step: grain boundaries
+    migrate, small grains shrink and disappear, and the structure coarsens into fewer, larger grains while
+    preserving the expected kinetics and topology.
+  paper_title: "3D-PRIMME: A scalable physics-guided machine learning framework for 3D grain growth (Materials & Design, 2026)"
+  paper_url: https://arxiv.org/abs/2607.04680
