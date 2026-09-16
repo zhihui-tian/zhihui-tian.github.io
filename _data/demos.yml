@@ -1,8 +1,11 @@
 # Demo videos shown on /demo/. Fields: title (required), video (path under /assets/video/, required),
-# poster (image under /assets/img/), description (Markdown), paper_title, paper_url.
+# poster (image under /assets/img/), zoom (CSS scale to crop margins, default 1), max_width (default 640px),
+# description (Markdown), paper_title, paper_url.
 - title: "3D grain growth predicted by 3D-PRIMME"
   video: /assets/video/grain_growth_3dprimme.mp4
   poster: /assets/img/demo_3dprimme_poster.png
+  zoom: 1.75 # CSS zoom to crop away the white margins of the video frame
+  max_width: 640px
   description: >
     Autoregressive prediction of three-dimensional polycrystalline grain growth by 3D-PRIMME, a physics-guided
     machine learning model that learns local grain boundary evolution rules from Monte Carlo Potts simulations.
