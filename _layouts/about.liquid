@@ -7,12 +7,24 @@ layout: default
   recent news and selected publications.
 {%- endcomment -%}
 <div class="post about">
+  <canvas class="grain-strip" data-grain width="900" height="70" aria-hidden="true"></canvas>
+
   <article>
     <h2 class="section-label">About</h2>
-    {% if page.lede %}
-      <h1 class="about-lede">{{ page.lede }}</h1>
-    {% endif %}
+    {% if page.lede %}<p class="about-lede">{{ page.lede }}</p>{% endif %}
     <div class="about-body">{{ content }}</div>
+
+    {% if page.research %}
+      <h2 class="section-label">Research</h2>
+      <ul class="research-list">
+        {% for r in page.research %}
+          <li>
+            <b>{{ r.title }}</b>
+            <span>{{ r.text }}{% if r.link %} <a href="{{ r.link }}" target="_blank" rel="noopener">{{ r.link_text | default: 'Paper' }}</a>{% endif %}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
 
     {% if page.announcements and page.announcements.enabled and site.news != blank %}
       <h2 class="section-label">News</h2>
@@ -40,3 +52,4 @@ layout: default
     {% endif %}
   </article>
 </div>
+<script src="{{ '/assets/js/grain.js' | relative_url }}"></script>
