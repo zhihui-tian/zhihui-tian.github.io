@@ -36,7 +36,7 @@ More broadly, I am interested in scientific machine learning, surrogate modeling
 
 [3D-PRIMME: A scalable physics-guided machine learning framework for 3D grain growth](https://arxiv.org/abs/2607.04680)
 
-**Zhihui Tian**, Kang Yang, Vishal Yadav, Amanda R. Krause, Michael R. Tonks, Joel B. Harley
+**Zhihui Tian**, Kang Yang, Amanda R. Krause, Michael R. Tonks, Joel B. Harley
 
 *Materials & Design*, 2026 &nbsp;|&nbsp; [arXiv](https://arxiv.org/abs/2607.04680) &nbsp;|&nbsp; [Demo](#-demo)
 - A physics-guided model that learns local grain-boundary evolution rules from Monte Carlo Potts simulations and transfers from a 100³ training domain to volumes up to 1024³ without retraining, reproducing grain-growth kinetics and topological statistics.
@@ -56,7 +56,7 @@ More broadly, I am interested in scientific machine learning, surrogate modeling
 </div>
 
 - [Beyond curvature-driven grain growth: Insights from fully anisotropic Monte Carlo Potts simulations](https://doi.org/10.1016/j.actamat.2025.121672), Lin Yang, Vivekanand Muralikrishnan, Vishal Yadav, **Zhihui Tian**, Joel B. Harley, Amanda Krause, Michael Tonks, **Acta Materialia 2026**
-- [Improved PCA reconstruction-based unsupervised anomaly detection in uncontrolled structural health monitoring with correntropy](https://ieeexplore.ieee.org/document/11078390), Kang Yang, Zhenhan Lin, Zekun Yang, **Zhihui Tian**, Jie Ma, José C. Príncipe, Joel B. Harley, **IEEE Transactions on Industrial Informatics 2025**
+- [Improved PCA reconstruction-based unsupervised anomaly detection in uncontrolled structural health monitoring with correntropy](https://doi.org/10.1109/TII.2025.3584458), Kang Yang, Zhenhan Lin, Zekun Yang, **Zhihui Tian**, Jie Ma, José C. Príncipe, Joel B. Harley, **IEEE Transactions on Industrial Informatics 2025**
 - [Baseline optimized autoencoder-based unsupervised anomaly detection in uncontrolled dynamic structural health monitoring](https://doi.org/10.1177/14759217251324107), Kang Yang, Tianqi Liu, Zekun Yang, Yang Zhou, **Zhihui Tian**, Nam H. Kim, Joel B. Harley, **Structural Health Monitoring 2025**
 - [Quantifying heterogeneous ecosystem services with multi-label soft classification](https://doi.org/10.1109/IGARSS53475.2024.10642804), **Zhihui Tian**, John Upchurch, G. Austin Simon, José Dubeux, Alina Zare, Chang Zhao, Joel B. Harley, **IEEE IGARSS 2024**
 - [Weight decay optimized unsupervised autoencoder-based anomaly detection in uncontrolled dynamic structural health monitoring](https://doi.org/10.1007/978-3-031-94895-4_3), Kang Yang, Zekun Yang, **Zhihui Tian**, Joel B. Harley, **DDDAS 2024 (LNCS)**
