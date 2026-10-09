@@ -23,9 +23,9 @@ More broadly, I am interested in scientific machine learning, surrogate modeling
 
 
 # 🔥 News
+- *2026.09*: &nbsp;📄 Our 3D-PRIMME paper, *[A physics-regulated neural framework for learning 3D grain growth dynamics](https://doi.org/10.1016/j.matdes.2026.116899)*, is published in *Materials & Design*.
 - *2026.07*: &nbsp;🎉 Gave a talk on 3D-PRIMME for learning grain growth from simulated and experimental data at AIM 2026, TMS Specialty Congress, Anaheim.
-- *2026.07*: &nbsp;📄 Preprint of *3D-PRIMME: A scalable physics-guided machine learning framework for 3D grain growth* (Materials & Design) is on [arXiv](https://arxiv.org/abs/2607.04680).
-- *2025.11*: &nbsp;📄 Preprint of *Scaling kinetic Monte-Carlo simulations of grain growth with combined convolutional and graph neural networks* is on [arXiv](https://arxiv.org/abs/2511.17848); now published in *Acta Materialia*.
+- *2026.03*: &nbsp;📄 *[Scaling kinetic Monte-Carlo simulations of grain growth with combined convolutional and graph neural networks](https://doi.org/10.1016/j.actamat.2026.122153)* is published in *Acta Materialia*.
 - *2025.09*: &nbsp;🤝 Started a collaborative research project with Lawrence Livermore National Laboratory on scalable surrogate models for materials simulation.
 
 
@@ -34,11 +34,11 @@ More broadly, I am interested in scientific machine learning, surrogate modeling
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mater. Des. 2026</div><img src='images/primme3d.png' alt="3D-PRIMME architecture (Figure 1)" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[3D-PRIMME: A scalable physics-guided machine learning framework for 3D grain growth](https://arxiv.org/abs/2607.04680)
+[A physics-regulated neural framework for learning 3D grain growth dynamics (3D-PRIMME)](https://doi.org/10.1016/j.matdes.2026.116899)
 
 **Zhihui Tian**, Kang Yang, Amanda R. Krause, Michael R. Tonks, Joel B. Harley
 
-*Materials & Design*, 2026 &nbsp;|&nbsp; [arXiv](https://arxiv.org/abs/2607.04680) &nbsp;|&nbsp; [Demo](#-demo)
+*Materials & Design*, 270, 116899, 2026 &nbsp;|&nbsp; [DOI](https://doi.org/10.1016/j.matdes.2026.116899) &nbsp;|&nbsp; [arXiv](https://arxiv.org/abs/2607.04680) &nbsp;|&nbsp; [Demo](#-demo)
 - A physics-guided model that learns local grain-boundary evolution rules from Monte Carlo Potts simulations and transfers from a 100³ training domain to volumes up to 1024³ without retraining, reproducing grain-growth kinetics and topological statistics.
 </div>
 </div>
@@ -68,7 +68,7 @@ More broadly, I am interested in scientific machine learning, surrogate modeling
   <video src="files/grain_growth_3dprimme.mp4" poster="images/demo_3dprimme_poster.png" autoplay loop muted playsinline style="display:block;width:100%;height:100%;object-fit:cover;transform:translateY(-2.5%) scale(1.65);transform-origin:center;"></video>
 </div>
 
-3D grain growth predicted by 3D-PRIMME. Starting from an initial microstructure, the model evolves the entire volume step by step: grain boundaries migrate, small grains shrink and disappear, and the structure coarsens into fewer, larger grains while preserving the expected kinetics and topology. See the [paper](https://arxiv.org/abs/2607.04680).
+3D grain growth predicted by 3D-PRIMME. Starting from an initial microstructure, the model evolves the entire volume step by step: grain boundaries migrate, small grains shrink and disappear, and the structure coarsens into fewer, larger grains while preserving the expected kinetics and topology. See the [paper](https://doi.org/10.1016/j.matdes.2026.116899).
 
 
 # 💬 Talks
