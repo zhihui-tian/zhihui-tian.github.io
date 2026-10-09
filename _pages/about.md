@@ -28,7 +28,7 @@ More broadly, I am interested in scientific machine learning, surrogate modeling
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mater. Des. 2026</div><img src='images/demo_3dprimme_poster.png' alt="3D grain growth predicted by 3D-PRIMME" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mater. Des. 2026</div><img src='images/primme3d_cube.png' alt="3D grain growth predicted by 3D-PRIMME" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [3D-PRIMME: A scalable physics-guided machine learning framework for 3D grain growth](https://arxiv.org/abs/2607.04680)
@@ -61,7 +61,9 @@ More broadly, I am interested in scientific machine learning, surrogate modeling
 
 # 🎬 Demo
 
-<video src="files/grain_growth_3dprimme.mp4" poster="images/demo_3dprimme_poster.png" autoplay loop muted playsinline style="display:block;width:100%;max-width:520px;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.15);"></video>
+<div style="width:100%;max-width:480px;aspect-ratio:1/1;overflow:hidden;border-radius:6px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.15);">
+  <video src="files/grain_growth_3dprimme.mp4" poster="images/demo_3dprimme_poster.png" autoplay loop muted playsinline style="display:block;width:100%;height:100%;object-fit:cover;transform:translateY(-2.5%) scale(1.65);transform-origin:center;"></video>
+</div>
 
 3D grain growth predicted by 3D-PRIMME. Starting from an initial microstructure, the model evolves the entire volume step by step: grain boundaries migrate, small grains shrink and disappear, and the structure coarsens into fewer, larger grains while preserving the expected kinetics and topology. See the [paper](https://arxiv.org/abs/2607.04680).
 
