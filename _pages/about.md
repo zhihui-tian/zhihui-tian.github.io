@@ -20,13 +20,6 @@ More broadly, I am interested in scientific machine learning, surrogate modeling
 
 **I am on the job market.** I am seeking research scientist / machine learning engineer roles in industry and postdoctoral positions in scientific ML, materials informatics, or related areas. Please feel free to reach out by [email](mailto:zhihui.tian@ufl.edu). My CV is available [here](files/Zhihui_Tian_CV.pdf).
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-<a href='https://scholar.google.com/citations?user=Hcj4-PkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 
 # 🔥 News
