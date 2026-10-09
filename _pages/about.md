@@ -36,7 +36,7 @@ More broadly, I am interested in scientific machine learning, surrogate modeling
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mater. Des. 2026</div><img src='images/primme3d_cube.png' alt="3D grain growth predicted by 3D-PRIMME" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mater. Des. 2026</div><img src='images/primme3d.png' alt="3D-PRIMME architecture (Figure 1)" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [3D-PRIMME: A scalable physics-guided machine learning framework for 3D grain growth](https://arxiv.org/abs/2607.04680)
