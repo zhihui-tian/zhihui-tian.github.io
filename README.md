@@ -1,22 +1,12 @@
-# Zhihui Tian — personal academic website
+# zhihui-tian.github.io
 
-Built with [al-folio](https://github.com/alshedivat/al-folio) (Jekyll) and deployed to GitHub Pages by GitHub Actions.
+Personal academic homepage of Zhihui Tian, built from the
+[AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io) Jekyll template.
 
-## Where things live
+- Content: `_pages/about.md` (single page: about, news, publications, demo, talks, experience, education)
+- Sidebar and site settings: `_config.yml`; top navigation: `_data/navigation.yml`
+- Images: `images/`; CV PDF and the demo video: `files/`
+- Deployment: `.github/workflows/deploy.yml` builds the site and publishes it to the `gh-pages` branch
+- Google Scholar statistics: `.github/workflows/google_scholar_crawler.yaml` writes them to the `google-scholar-stats` branch
 
-| What | File |
-| --- | --- |
-| Site settings (name, URL, features) | `_config.yml` |
-| Social links (email, Google Scholar) | `_data/socials.yml` |
-| Home page text | `_pages/about.md` |
-| Publications | `_bibliography/papers.bib` |
-| CV content (also rendered to PDF) | `_data/cv.yml` |
-| Profile photo | `assets/img/prof_pic.jpg` |
-
-## Workflow
-
-1. Edit the files above and push to `main`.
-2. `.github/workflows/deploy.yml` builds the site and publishes it to the `gh-pages` branch (about 3-4 minutes).
-3. `.github/workflows/render-cv.yml` regenerates `assets/rendercv/rendercv_output/Zhihui_Tian_CV.pdf` whenever `_data/cv.yml` changes.
-
-No local Ruby/Jekyll setup is required. For local preview see al-folio's `docs/INSTALL.md`.
+The previous al-folio version of the site is kept on the `al-folio-version` branch.

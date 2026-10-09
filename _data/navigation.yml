@@ -1,0 +1,18 @@
+# Links in the top navigation bar (anchors on the single home page).
+main:
+  - title: "About Me"
+    url: "/#about-me"
+  - title: "News"
+    url: "/#-news"
+  - title: "Publications"
+    url: "/#-publications"
+  - title: "Demo"
+    url: "/#-demo"
+  - title: "Talks"
+    url: "/#-talks"
+  - title: "Experience"
+    url: "/#-experience"
+  - title: "Education"
+    url: "/#-education"
+  - title: "CV"
+    url: "/files/Zhihui_Tian_CV.pdf"
