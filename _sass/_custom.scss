@@ -49,7 +49,9 @@ h6 {
 .site-shell {
   display: flex;
   align-items: stretch;
+  max-width: 1200px;
   min-height: 100vh;
+  margin: 0 auto;
 }
 
 .site-sidebar {
@@ -77,7 +79,7 @@ h6 {
 .site-main > .container[role="main"] {
   flex: 1 0 auto;
   width: 100%;
-  max-width: 900px;
+  max-width: none;
   margin: 0;
   padding: 3rem 3.5rem 2rem;
 }
